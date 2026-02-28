@@ -3,6 +3,10 @@ import Navbar from './components/navbar/Navbar.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ShopCategory from './pages/ShopCategory.jsx';
 import Product from './pages/Product.jsx';
+import Shop from './pages/Shop.jsx';
+import Cart from './pages/Cart.jsx';
+import LoginSignup from './pages/LoginSignup.jsx';
+
 function App() {
   return (
     <div className="App">
@@ -19,9 +23,6 @@ function App() {
                <Route path=':productId' element={<Product/>}/>
           </Route>
         </Routes>
-
-          
-      
       </BrowserRouter>
       
 

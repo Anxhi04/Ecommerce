@@ -65,10 +65,13 @@
     height: 22px;
     display: flex;
     justify-content:center ;
-    margin-top: -35px;
-    margin-left: -55px;
+    margin-top: -55px;
+    margin-left: 35px;
     border-radius: 11px;
     font-size: 14px;
     background: red;
     color: white;
 }
+.navbar a {
+    text-decoration: none;
+    color: inherit;}

@@ -14,7 +14,6 @@ const Shop=()=>{
             <Offers />
             <Newcollection />
             <Newsletter />
-            <Footer />
         </div>
     )
 }   

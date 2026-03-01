@@ -6,6 +6,7 @@ import Product from './pages/Product.jsx';
 import Shop from './pages/Shop.jsx';
 import Cart from './pages/Cart.jsx';
 import LoginSignup from './pages/LoginSignup.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
                <Route path=':productId' element={<Product/>}/>
           </Route>
         </Routes>
+        <Footer />
+
       </BrowserRouter>
       
 
